@@ -363,14 +363,22 @@
     
   }
 
+  .rooms_img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+
 
 @media only screen and (max-width:800px){
     .room{
         margin-left: 30px;
-        
+        width: 70%;
     }
 
-
+    
 }
 
 
@@ -383,25 +391,12 @@
         width: 80%;
     }
 
-    .rooms_img:hover{
-       scale: 1;
-       
-    }
+   
     
 }
 
 
 
-.rooms_img{
-    width: 300px;
-    height: 200px;
-    
-}
-
-.rooms_img:hover{
-    scale: 1.7;
-    transition: scale 1s ease;
-}
 
 
 .Room_div{
