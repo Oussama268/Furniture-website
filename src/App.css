@@ -376,8 +376,11 @@
 
 @media only screen and (max-width:475px){
     .room{
-        margin-left: 20px;
+        margin-left: 30px;
         
+    }
+    .room{
+        width: 80%;
     }
 
 
