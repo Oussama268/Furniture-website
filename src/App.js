@@ -310,7 +310,7 @@ useEffect(() => {
       </div>
 
       <div id="con" className="Contact_section">
-        <img className="contact_img" width={"1000px"} height={"550px"} src="./Background_images/contact_picture.png" alt="" />
+        <img loading="lazy" className="contact_img" width={"1000px"} height={"550px"} src="./Background_images/contact_picture.png" alt="" />
 
         <div className="contact">
           <h1 className={`${contactH1InView ? "animate" : ''}`} ref={contactH1Ref}>Contact Us</h1>
@@ -345,15 +345,15 @@ useEffect(() => {
               <h3 className={`${contactPInView ? "animate" : ''}`} ref={contactPRef}>Get Social</h3>
               <div className="social_links">
                 <a href="#" className={`link1 ${contactPInView ? "animate" : ''}`} ref={contactPRef} >
-                  <img  style={{marginTop:"41px",marginRight:"2px"}} width={"30px"} src="./social_media_logos/Facebook.png"/>
+                  <img loading="lazy"  style={{marginTop:"41px",marginRight:"2px"}} width={"30px"} src="./social_media_logos/Facebook.png"/>
 
                 </a>
                 <a href="#" className={`link2 ${contactPInView ? "animate" : ''}`} ref={contactPRef}>
-                  <img  width={"37px"} src="./social_media_logos/Instagram.png"/>
+                  <img loading="lazy"  width={"37px"} src="./social_media_logos/Instagram.png"/>
 
                 </a>
                 <a href="#" className={`link3 ${contactPInView ? "animate" : ''}`} ref={contactPRef}>
-                  <img style={{marginLeft: "0px",marginTop:"42px"}} width={"41px"} src="./social_media_logos/X.png"/>
+                  <img loading="lazy" style={{marginLeft: "0px",marginTop:"42px"}} width={"41px"} src="./social_media_logos/X.png"/>
 
                 </a>
               </div>

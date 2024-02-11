@@ -83,7 +83,7 @@ export default function Product({REF , INVIEW , product_img , text , model }) {
 
      <div id="PRODUCTS">
 
-     <img className={`${INVIEW ? "animate" : ''}`} ref={REF} width={"300px"} src={product_img} alt="" />
+     <img loading="lazy" className={`${INVIEW ? "animate" : ''}`} ref={REF} width={"300px"} src={product_img} alt="" />
      <h4 className={`${INVIEW ? "animate" : ''}`} ref={REF}>{text}</h4>
 
      <button type="onclick" onClick={() => setBlend(!blend)}> See in 3D </button>
