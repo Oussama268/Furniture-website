@@ -310,7 +310,7 @@ useEffect(() => {
       </div>
 
       <div id="con" className="Contact_section">
-        <img className="contact_img" width={"1000px"} height={"550px"} src="./Furniture-website/Background_images/contact_picture.png" alt="" />
+        <img className="contact_img" width={"1000px"} height={"550px"} src="./Background_images/contact_picture.png" alt="" />
 
         <div className="contact">
           <h1 className={`${contactH1InView ? "animate" : ''}`} ref={contactH1Ref}>Contact Us</h1>
