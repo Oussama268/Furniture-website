@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function TableModel(props) {
-  const { nodes, materials } = useGLTF("./AGGlead-projects/3D_modules/Table.glb");
+  const { nodes, materials } = useGLTF("./3D_modules/Table.glb");
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -18,4 +18,4 @@ export function TableModel(props) {
   );
 }
 
-useGLTF.preload("./AGGlead-projects/3D_modules/Table.glb");
+useGLTF.preload("./3D_modules/Table.glb");

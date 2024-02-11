@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function LetherChairModel(props) {
-  const { nodes, materials } = useGLTF("./AGGlead-projects/3D_modules/Chair.glb");
+  const { nodes, materials } = useGLTF("./3D_modules/Chair.glb");
   return (
     <group {...props} dispose={null}>
       <group
@@ -33,4 +33,4 @@ export function LetherChairModel(props) {
   );
 }
 
-useGLTF.preload("./AGGlead-projects/3D_modules/Chair.glb");
+useGLTF.preload("./3D_modules/Chair.glb");
