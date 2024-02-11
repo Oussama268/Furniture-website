@@ -86,21 +86,21 @@ function App() {
 
 
     const products = [{
-      img : "./Furniture-website/products/Lether_chair.png",
+      img : "./Products/Lether_chair.png",
       text: "chair",
       model : "chair",
       div : productsDiv1Ref,
       inview : productsDiv1InView,
     
     },{
-      img : "./Furniture-website/products/couch.jpg",
+      img : "./Products/couch.jpg",
       text: "Lether couch",
       model : "couch",
       div : productsDiv2Ref,
       inview : productsDiv2InView,
     
     }, {
-      img : "./Furniture-website/products/Table.jpg",
+      img : "./Products/Table.jpg",
       text: "Table",
       model : "table",
       div : productsDiv3Ref,
@@ -113,21 +113,21 @@ function App() {
     const rooms = [
       {
         number : 1,
-        img : "./Furniture-website/rooms/living_room.jpg",
+        img : "./rooms/living_room.jpg",
         name : "Living room",
         price : 500
     
       },
       {
         number : 2,
-        img : "./Furniture-website/rooms/room.jpg",
+        img : "./rooms/room.jpg",
         name : "Living Room",
         price : 500
     
       },
       {
         number : 3,
-        img : "./Furniture-website/rooms/bedRoom.jpg",
+        img : "./rooms/bedRoom.jpg",
         name : "Bed room",
         price : 500
     
@@ -345,15 +345,15 @@ useEffect(() => {
               <h3 className={`${contactPInView ? "animate" : ''}`} ref={contactPRef}>Get Social</h3>
               <div className="social_links">
                 <a href="#" className={`link1 ${contactPInView ? "animate" : ''}`} ref={contactPRef} >
-                  <img  style={{marginTop:"41px",marginRight:"2px"}} width={"30px"} src="./Furniture-website/social_media_logos/Facebook.png"/>
+                  <img  style={{marginTop:"41px",marginRight:"2px"}} width={"30px"} src="./social_media_logos/Facebook.png"/>
 
                 </a>
                 <a href="#" className={`link2 ${contactPInView ? "animate" : ''}`} ref={contactPRef}>
-                  <img  width={"37px"} src="./Furniture-website/social_media_logos/Instagram.png"/>
+                  <img  width={"37px"} src="./social_media_logos/Instagram.png"/>
 
                 </a>
                 <a href="#" className={`link3 ${contactPInView ? "animate" : ''}`} ref={contactPRef}>
-                  <img style={{marginLeft: "0px",marginTop:"42px"}} width={"41px"} src="./Furniture-website/social_media_logos/X.png"/>
+                  <img style={{marginLeft: "0px",marginTop:"42px"}} width={"41px"} src="./social_media_logos/X.png"/>
 
                 </a>
               </div>
