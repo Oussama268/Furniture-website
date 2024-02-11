@@ -383,7 +383,11 @@
         width: 80%;
     }
 
-
+    .rooms_img:hover{
+       scale: 1;
+       
+    }
+    
 }
 
 
@@ -454,8 +458,8 @@
 .container {
     position: relative;
     width: 100%;
-    height: 800px; /* Set your desired height */
-    overflow: hidden; /* Ensure child content doesn't overflow */
+    height: 800px; 
+    overflow: hidden; 
   }
   
   .container::before {
@@ -465,13 +469,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust opacity (last value) as needed */
+    background: rgba(0, 0, 0, 0.5); 
   }
   
   .content {
     position: relative;
-    z-index: 1; /* Ensure content is above the background overlay */
-    color: white; /* Optionally adjust text color */
+    z-index: 1; 
+    color: white; 
   }
 
 
@@ -743,9 +747,7 @@
     opacity: 0;
 }
 
-.logo{
-    
-}
+
 
 
 /*  3D  */
