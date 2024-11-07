@@ -283,7 +283,7 @@
 .Rooms_section{
     background-image: url("../public/Background_images/empty_room.png");
     background-size: cover;
-    height: 800px;
+    height: 1100px;
     transition: background-image 0.4s ease;
     background-position: center;
     
